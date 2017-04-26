@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		666485821EB153F600CA9791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485811EB153F600CA9791 /* AppDelegate.swift */; };
+		666485841EB153F600CA9791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485831EB153F600CA9791 /* ViewController.swift */; };
+		666485871EB153F600CA9791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666485851EB153F600CA9791 /* Main.storyboard */; };
+		666485891EB153F600CA9791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666485881EB153F600CA9791 /* Assets.xcassets */; };
+		6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */; };
+		666485971EB153F600CA9791 /* AreiosChiropracticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485961EB153F600CA9791 /* AreiosChiropracticTests.swift */; };
+		666485A21EB153F600CA9791 /* AreiosChiropracticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485A11EB153F600CA9791 /* AreiosChiropracticUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666485931EB153F600CA9791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666485761EB153F600CA9791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6664857D1EB153F600CA9791;
+			remoteInfo = AreiosChiropractic;
+		};
+		6664859E1EB153F600CA9791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666485761EB153F600CA9791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6664857D1EB153F600CA9791;
+			remoteInfo = AreiosChiropractic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6664857E1EB153F600CA9791 /* AreiosChiropractic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreiosChiropractic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666485811EB153F600CA9791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		666485831EB153F600CA9791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		666485861EB153F600CA9791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666485881EB153F600CA9791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6664858B1EB153F600CA9791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6664858D1EB153F600CA9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666485921EB153F600CA9791 /* AreiosChiropracticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreiosChiropracticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666485961EB153F600CA9791 /* AreiosChiropracticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreiosChiropracticTests.swift; sourceTree = "<group>"; };
+		666485981EB153F600CA9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6664859D1EB153F600CA9791 /* AreiosChiropracticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreiosChiropracticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666485A11EB153F600CA9791 /* AreiosChiropracticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreiosChiropracticUITests.swift; sourceTree = "<group>"; };
+		666485A31EB153F600CA9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6664857B1EB153F600CA9791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6664858F1EB153F600CA9791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6664859A1EB153F600CA9791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666485751EB153F600CA9791 = {
+			isa = PBXGroup;
+			children = (
+				666485801EB153F600CA9791 /* AreiosChiropractic */,
+				666485951EB153F600CA9791 /* AreiosChiropracticTests */,
+				666485A01EB153F600CA9791 /* AreiosChiropracticUITests */,
+				6664857F1EB153F600CA9791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6664857F1EB153F600CA9791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6664857E1EB153F600CA9791 /* AreiosChiropractic.app */,
+				666485921EB153F600CA9791 /* AreiosChiropracticTests.xctest */,
+				6664859D1EB153F600CA9791 /* AreiosChiropracticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666485801EB153F600CA9791 /* AreiosChiropractic */ = {
+			isa = PBXGroup;
+			children = (
+				666485811EB153F600CA9791 /* AppDelegate.swift */,
+				666485831EB153F600CA9791 /* ViewController.swift */,
+				666485851EB153F600CA9791 /* Main.storyboard */,
+				666485881EB153F600CA9791 /* Assets.xcassets */,
+				6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */,
+				6664858D1EB153F600CA9791 /* Info.plist */,
+			);
+			path = AreiosChiropractic;
+			sourceTree = "<group>";
+		};
+		666485951EB153F600CA9791 /* AreiosChiropracticTests */ = {
+			isa = PBXGroup;
+			children = (
+				666485961EB153F600CA9791 /* AreiosChiropracticTests.swift */,
+				666485981EB153F600CA9791 /* Info.plist */,
+			);
+			path = AreiosChiropracticTests;
+			sourceTree = "<group>";
+		};
+		666485A01EB153F600CA9791 /* AreiosChiropracticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				666485A11EB153F600CA9791 /* AreiosChiropracticUITests.swift */,
+				666485A31EB153F600CA9791 /* Info.plist */,
+			);
+			path = AreiosChiropracticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6664857D1EB153F600CA9791 /* AreiosChiropractic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666485A61EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropractic" */;
+			buildPhases = (
+				6664857A1EB153F600CA9791 /* Sources */,
+				6664857B1EB153F600CA9791 /* Frameworks */,
+				6664857C1EB153F600CA9791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreiosChiropractic;
+			productName = AreiosChiropractic;
+			productReference = 6664857E1EB153F600CA9791 /* AreiosChiropractic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666485911EB153F600CA9791 /* AreiosChiropracticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666485A91EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticTests" */;
+			buildPhases = (
+				6664858E1EB153F600CA9791 /* Sources */,
+				6664858F1EB153F600CA9791 /* Frameworks */,
+				666485901EB153F600CA9791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666485941EB153F600CA9791 /* PBXTargetDependency */,
+			);
+			name = AreiosChiropracticTests;
+			productName = AreiosChiropracticTests;
+			productReference = 666485921EB153F600CA9791 /* AreiosChiropracticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6664859C1EB153F600CA9791 /* AreiosChiropracticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666485AC1EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticUITests" */;
+			buildPhases = (
+				666485991EB153F600CA9791 /* Sources */,
+				6664859A1EB153F600CA9791 /* Frameworks */,
+				6664859B1EB153F600CA9791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6664859F1EB153F600CA9791 /* PBXTargetDependency */,
+			);
+			name = AreiosChiropracticUITests;
+			productName = AreiosChiropracticUITests;
+			productReference = 6664859D1EB153F600CA9791 /* AreiosChiropracticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		666485761EB153F600CA9791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nicholas Laughter";
+				TargetAttributes = {
+					6664857D1EB153F600CA9791 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B24U63J96U;
+						ProvisioningStyle = Automatic;
+					};
+					666485911EB153F600CA9791 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B24U63J96U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6664857D1EB153F600CA9791;
+					};
+					6664859C1EB153F600CA9791 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B24U63J96U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6664857D1EB153F600CA9791;
+					};
+				};
+			};
+			buildConfigurationList = 666485791EB153F600CA9791 /* Build configuration list for PBXProject "AreiosChiropractic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 666485751EB153F600CA9791;
+			productRefGroup = 6664857F1EB153F600CA9791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6664857D1EB153F600CA9791 /* AreiosChiropractic */,
+				666485911EB153F600CA9791 /* AreiosChiropracticTests */,
+				6664859C1EB153F600CA9791 /* AreiosChiropracticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6664857C1EB153F600CA9791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */,
+				666485891EB153F600CA9791 /* Assets.xcassets in Resources */,
+				666485871EB153F600CA9791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666485901EB153F600CA9791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6664859B1EB153F600CA9791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6664857A1EB153F600CA9791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666485841EB153F600CA9791 /* ViewController.swift in Sources */,
+				666485821EB153F600CA9791 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6664858E1EB153F600CA9791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666485971EB153F600CA9791 /* AreiosChiropracticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666485991EB153F600CA9791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666485A21EB153F600CA9791 /* AreiosChiropracticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666485941EB153F600CA9791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6664857D1EB153F600CA9791 /* AreiosChiropractic */;
+			targetProxy = 666485931EB153F600CA9791 /* PBXContainerItemProxy */;
+		};
+		6664859F1EB153F600CA9791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6664857D1EB153F600CA9791 /* AreiosChiropractic */;
+			targetProxy = 6664859E1EB153F600CA9791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		666485851EB153F600CA9791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666485861EB153F600CA9791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6664858B1EB153F600CA9791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		666485A41EB153F600CA9791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666485A51EB153F600CA9791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666485A71EB153F600CA9791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B24U63J96U;
+				INFOPLIST_FILE = AreiosChiropractic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.areios.AreiosChiropractic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		666485A81EB153F600CA9791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B24U63J96U;
+				INFOPLIST_FILE = AreiosChiropractic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.areios.AreiosChiropractic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		666485AA1EB153F600CA9791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B24U63J96U;
+				INFOPLIST_FILE = AreiosChiropracticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.areios.AreiosChiropracticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreiosChiropractic.app/AreiosChiropractic";
+			};
+			name = Debug;
+		};
+		666485AB1EB153F600CA9791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B24U63J96U;
+				INFOPLIST_FILE = AreiosChiropracticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.areios.AreiosChiropracticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreiosChiropractic.app/AreiosChiropractic";
+			};
+			name = Release;
+		};
+		666485AD1EB153F600CA9791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B24U63J96U;
+				INFOPLIST_FILE = AreiosChiropracticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.areios.AreiosChiropracticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AreiosChiropractic;
+			};
+			name = Debug;
+		};
+		666485AE1EB153F600CA9791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B24U63J96U;
+				INFOPLIST_FILE = AreiosChiropracticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.areios.AreiosChiropracticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AreiosChiropractic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		666485791EB153F600CA9791 /* Build configuration list for PBXProject "AreiosChiropractic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666485A41EB153F600CA9791 /* Debug */,
+				666485A51EB153F600CA9791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666485A61EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropractic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666485A71EB153F600CA9791 /* Debug */,
+				666485A81EB153F600CA9791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		666485A91EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666485AA1EB153F600CA9791 /* Debug */,
+				666485AB1EB153F600CA9791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		666485AC1EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666485AD1EB153F600CA9791 /* Debug */,
+				666485AE1EB153F600CA9791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 666485761EB153F600CA9791 /* Project object */;
+}
