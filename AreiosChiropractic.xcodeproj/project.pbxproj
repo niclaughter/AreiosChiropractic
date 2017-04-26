@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DC4CBBCF2EEC939BE116723 /* Pods_AreiosChiropracticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1278A84A2DDB8EA8A0F560 /* Pods_AreiosChiropracticUITests.framework */; };
 		666485821EB153F600CA9791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485811EB153F600CA9791 /* AppDelegate.swift */; };
 		666485891EB153F600CA9791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666485881EB153F600CA9791 /* Assets.xcassets */; };
 		6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */; };
 		666485971EB153F600CA9791 /* AreiosChiropracticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485961EB153F600CA9791 /* AreiosChiropracticTests.swift */; };
 		666485A21EB153F600CA9791 /* AreiosChiropracticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485A11EB153F600CA9791 /* AreiosChiropracticUITests.swift */; };
+		666485B01EB159EB00CA9791 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 666485AF1EB159EB00CA9791 /* GoogleService-Info.plist */; };
+		BE832D8905F0C1E82EA1152C /* Pods_AreiosChiropractic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761F80B999926EA7F812099 /* Pods_AreiosChiropractic.framework */; };
+		CA3BB8DC242B9339AE478F52 /* Pods_AreiosChiropracticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F0ECC477AF2CE4EFD2A26 /* Pods_AreiosChiropracticTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126CB824A6D2D89BEFBCA2DC /* Pods-AreiosChiropracticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticTests/Pods-AreiosChiropracticTests.debug.xcconfig"; sourceTree = "<group>"; };
+		397353EBE0783FCFEDFF1078 /* Pods-AreiosChiropractic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropractic.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic.release.xcconfig"; sourceTree = "<group>"; };
+		479C2C9D04A04DB66D795BDD /* Pods-AreiosChiropracticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticTests/Pods-AreiosChiropracticTests.release.xcconfig"; sourceTree = "<group>"; };
+		6047A1BD55B020679348F165 /* Pods-AreiosChiropracticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6664857E1EB153F600CA9791 /* AreiosChiropractic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreiosChiropractic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666485811EB153F600CA9791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666485881EB153F600CA9791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +51,12 @@
 		6664859D1EB153F600CA9791 /* AreiosChiropracticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreiosChiropracticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666485A11EB153F600CA9791 /* AreiosChiropracticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreiosChiropracticUITests.swift; sourceTree = "<group>"; };
 		666485A31EB153F600CA9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666485AF1EB159EB00CA9791 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		669F0ECC477AF2CE4EFD2A26 /* Pods_AreiosChiropracticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreiosChiropracticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954ADCD4E14A9F4860714F34 /* Pods-AreiosChiropracticUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F1278A84A2DDB8EA8A0F560 /* Pods_AreiosChiropracticUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreiosChiropracticUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D08F3E6DF737BD1C47CDC7 /* Pods-AreiosChiropractic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropractic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic.debug.xcconfig"; sourceTree = "<group>"; };
+		C761F80B999926EA7F812099 /* Pods_AreiosChiropractic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreiosChiropractic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE832D8905F0C1E82EA1152C /* Pods_AreiosChiropractic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3BB8DC242B9339AE478F52 /* Pods_AreiosChiropracticTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC4CBBCF2EEC939BE116723 /* Pods_AreiosChiropracticUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,8 @@
 				666485951EB153F600CA9791 /* AreiosChiropracticTests */,
 				666485A01EB153F600CA9791 /* AreiosChiropracticUITests */,
 				6664857F1EB153F600CA9791 /* Products */,
+				E658A102E2B5CF1ECDFB168E /* Pods */,
+				AE36616B61BD155BB65943BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				666485811EB153F600CA9791 /* AppDelegate.swift */,
-				666485881EB153F600CA9791 /* Assets.xcassets */,
-				6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */,
-				6664858D1EB153F600CA9791 /* Info.plist */,
+				668311B11EB15B830005E044 /* Resources */,
 			);
 			path = AreiosChiropractic;
 			sourceTree = "<group>";
@@ -119,6 +136,40 @@
 			path = AreiosChiropracticUITests;
 			sourceTree = "<group>";
 		};
+		668311B11EB15B830005E044 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				666485881EB153F600CA9791 /* Assets.xcassets */,
+				6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */,
+				6664858D1EB153F600CA9791 /* Info.plist */,
+				666485AF1EB159EB00CA9791 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AE36616B61BD155BB65943BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C761F80B999926EA7F812099 /* Pods_AreiosChiropractic.framework */,
+				669F0ECC477AF2CE4EFD2A26 /* Pods_AreiosChiropracticTests.framework */,
+				9F1278A84A2DDB8EA8A0F560 /* Pods_AreiosChiropracticUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E658A102E2B5CF1ECDFB168E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D08F3E6DF737BD1C47CDC7 /* Pods-AreiosChiropractic.debug.xcconfig */,
+				397353EBE0783FCFEDFF1078 /* Pods-AreiosChiropractic.release.xcconfig */,
+				126CB824A6D2D89BEFBCA2DC /* Pods-AreiosChiropracticTests.debug.xcconfig */,
+				479C2C9D04A04DB66D795BDD /* Pods-AreiosChiropracticTests.release.xcconfig */,
+				6047A1BD55B020679348F165 /* Pods-AreiosChiropracticUITests.debug.xcconfig */,
+				954ADCD4E14A9F4860714F34 /* Pods-AreiosChiropracticUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 666485A61EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropractic" */;
 			buildPhases = (
+				7C9B12B202F7407F44971C62 /* [CP] Check Pods Manifest.lock */,
 				6664857A1EB153F600CA9791 /* Sources */,
 				6664857B1EB153F600CA9791 /* Frameworks */,
 				6664857C1EB153F600CA9791 /* Resources */,
+				339058250A481C9D41375644 /* [CP] Embed Pods Frameworks */,
+				DDAC9F4D2E0E8DA2FFB446EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 666485A91EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticTests" */;
 			buildPhases = (
+				9B84D80393189757BD4BD58A /* [CP] Check Pods Manifest.lock */,
 				6664858E1EB153F600CA9791 /* Sources */,
 				6664858F1EB153F600CA9791 /* Frameworks */,
 				666485901EB153F600CA9791 /* Resources */,
+				F6450DD6932B30512ED449B2 /* [CP] Embed Pods Frameworks */,
+				CF1F6508AD5D8D8F6AED1475 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 666485AC1EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticUITests" */;
 			buildPhases = (
+				76F3410C73F02F3DC216CDA4 /* [CP] Check Pods Manifest.lock */,
 				666485991EB153F600CA9791 /* Sources */,
 				6664859A1EB153F600CA9791 /* Frameworks */,
 				6664859B1EB153F600CA9791 /* Resources */,
+				27EFADAD2CA128BC7EC49343 /* [CP] Embed Pods Frameworks */,
+				113CA7B8F798A9F2C125B438 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +291,7 @@
 			files = (
 				6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */,
 				666485891EB153F600CA9791 /* Assets.xcassets in Resources */,
+				666485B01EB159EB00CA9791 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +310,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113CA7B8F798A9F2C125B438 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27EFADAD2CA128BC7EC49343 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339058250A481C9D41375644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F3410C73F02F3DC216CDA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C9B12B202F7407F44971C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B84D80393189757BD4BD58A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1F6508AD5D8D8F6AED1475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreiosChiropracticTests/Pods-AreiosChiropracticTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAC9F4D2E0E8DA2FFB446EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6450DD6932B30512ED449B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreiosChiropracticTests/Pods-AreiosChiropracticTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6664857A1EB153F600CA9791 /* Sources */ = {
@@ -399,6 +598,7 @@
 		};
 		666485A71EB153F600CA9791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D08F3E6DF737BD1C47CDC7 /* Pods-AreiosChiropractic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B24U63J96U;
@@ -412,6 +612,7 @@
 		};
 		666485A81EB153F600CA9791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397353EBE0783FCFEDFF1078 /* Pods-AreiosChiropractic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B24U63J96U;
@@ -425,6 +626,7 @@
 		};
 		666485AA1EB153F600CA9791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126CB824A6D2D89BEFBCA2DC /* Pods-AreiosChiropracticTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -440,6 +642,7 @@
 		};
 		666485AB1EB153F600CA9791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479C2C9D04A04DB66D795BDD /* Pods-AreiosChiropracticTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -455,6 +658,7 @@
 		};
 		666485AD1EB153F600CA9791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6047A1BD55B020679348F165 /* Pods-AreiosChiropracticUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B24U63J96U;
@@ -469,6 +673,7 @@
 		};
 		666485AE1EB153F600CA9791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954ADCD4E14A9F4860714F34 /* Pods-AreiosChiropracticUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B24U63J96U;
@@ -500,6 +705,7 @@
 				666485A81EB153F600CA9791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		666485A91EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +714,7 @@
 				666485AB1EB153F600CA9791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		666485AC1EB153F600CA9791 /* Build configuration list for PBXNativeTarget "AreiosChiropracticUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +723,7 @@
 				666485AE1EB153F600CA9791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
