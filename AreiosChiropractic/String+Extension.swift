@@ -52,7 +52,7 @@ extension String {
     /*
      URL Strings
      */
-    static var myChiro4KidsURLString: String { get { return "http://mychiro4kids.com" } }
+    static var homeURLString: String { get { return "http://www.google.com" } }
     
     /*
      Reuse Identifiers

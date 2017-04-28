@@ -29,7 +29,7 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     }
     
     func loadWebsite() {
-        guard let url = URL(string: .myChiro4KidsURLString) else { return }
+        guard let url = URL(string: .homeURLString) else { return }
         let request = URLRequest(url: url)
         homePageWebView.loadRequest(request)
     }
