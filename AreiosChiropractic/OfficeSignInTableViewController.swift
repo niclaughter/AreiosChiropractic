@@ -53,22 +53,6 @@ class OfficeSignInTableViewController: UITableViewController, SignatureCaptureDe
         NSLog("Finished drawing")
     }
     
-    // MARK: - UITableView Delegate
-    
-    override func becomeFirstResponder() -> Bool {
-        super.becomeFirstResponder()
-        
-        tableView.isScrollEnabled = true
-        return true
-    }
-    
-    override func resignFirstResponder() -> Bool {
-        super.resignFirstResponder()
-        
-        tableView.isScrollEnabled = false
-        return true
-    }
-    
     // MARK: - UIPickerView DataSource/Delegate
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {

@@ -22,20 +22,20 @@ extension String {
     /*
      Encryption Keys
      */
-    static var encryptionKey: String { get { return "MyChiro4Kids" } }
+    static var encryptionKey: String { get { return "qyhvu7AMbNaWrCZ94Gpg94vVzxVMEt8CQHuPx6VVtWBC8Rbs9SEBf8vJuucVY8jKrnN25KFDzEcSAqSm8WAuNsAw8MNLXphr6CgHzBEGbdZtt9QsR4wyaMwnyeVCSnUf" } }
     
     /*
      Model Keys
      */
     // MARK: - Client Keys
-    static var nameKey: String { get { return "name" } }
-    static var kidsKey: String { get { return "kids" } }
-    static var adultOrChildKey: String { get { return "adultOrChild" } }
-    static var paymentTypeKey: String { get { return "paymentType" } }
-    static var signatureDataStringKey: String { get { return "signatureDataString" } }
-    static var signedInDateKey: String { get { return "signedInDate" } }
+    static var nameKey: String { get { return "fhseK3TKAMEsr9k4" } }
+    static var kidsKey: String { get { return "4TwtGHwKM3meUUv4" } }
+    static var adultOrChildKey: String { get { return "bvh59jJhBxXUKKBZ" } }
+    static var paymentTypeKey: String { get { return "T3um2sMdSWYD75hc" } }
+    static var signatureDataStringKey: String { get { return "DrLLsHkxxBG3HHDE" } }
+    static var signedInDateKey: String { get { return "dmHB3C549xYEdyRT" } }
     static var identifierKey: String { get { return "identifier" } }
-    static var signatureDownloadURLKey: String { get { return "signatureDownloadURL" } }
+    static var signatureDownloadURLKey: String { get { return "4FY2MNEzmNA9dHLE" } }
     
     // MARK: - Account Keys
     static var emailKey: String { get { return "email" } }
