@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="req-r0-Ogd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="req-r0-Ogd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Login Sign Up Table View Controller-->
         <scene sceneID="K2H-3o-W8T">
             <objects>
-                <tableViewController storyboardIdentifier="loginSignUpViewController" id="GRe-z7-sPy" customClass="LoginSignUpTableViewController" customModule="Chiropractic" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="loginSignUpViewController" id="GRe-z7-sPy" customClass="LoginSignUpTableViewController" customModule="AreiosChiropractic" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="W37-BZ-92G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,10 +192,10 @@
             </objects>
             <point key="canvasLocation" x="-2450.4000000000001" y="-1396.5517241379312"/>
         </scene>
-        <!--Practice Members-->
+        <!--Clients-->
         <scene sceneID="gtR-wO-8t9">
             <objects>
-                <viewController id="bql-mS-jMm" customClass="PracticeMemberListViewController" customModule="Chiropractic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bql-mS-jMm" customClass="ClientListViewController" customModule="AreiosChiropractic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lSj-A1-Mzx"/>
                         <viewControllerLayoutGuide type="bottom" id="OjK-Ud-y3H"/>
@@ -238,7 +238,7 @@
                                 <rect key="frame" x="0.0" y="100" width="375" height="523"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="practiceMemberCell" rowHeight="66" id="c3N-8I-lB5" customClass="PracticeMemberTableViewCell" customModule="Chiropractic" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="clientCell" rowHeight="66" id="c3N-8I-lB5" userLabel="clientMemberCell" customClass="ClientTableViewCell" customModule="AreiosChiropractic" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c3N-8I-lB5" id="CCG-m4-a5F">
@@ -280,15 +280,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="practiceMemberDetailLabel" destination="2Cp-mB-39U" id="BT8-UN-cCt"/>
-                                            <outlet property="practiceMemberNameLabel" destination="09c-5w-evi" id="mp1-a0-aWg"/>
-                                            <segue destination="YGt-Zc-3uR" kind="show" identifier="toPracticeMemberDetailSegue" id="j4f-l0-lBD"/>
+                                            <outlet property="clientDetailLabel" destination="2Cp-mB-39U" id="ZzU-3D-LJb"/>
+                                            <outlet property="clientNameLabel" destination="09c-5w-evi" id="oaa-Z4-hyG"/>
+                                            <segue destination="YGt-Zc-3uR" kind="show" identifier="toClientDetailSegue" id="j4f-l0-lBD"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="bql-mS-jMm" id="Fwa-V7-f4f"/>
-                                    <outlet property="delegate" destination="bql-mS-jMm" id="xHh-AZ-FXL"/>
+                                    <outlet property="dataSource" destination="bql-mS-jMm" id="q6J-8G-BId"/>
+                                    <outlet property="delegate" destination="bql-mS-jMm" id="l6F-Gh-Lui"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -306,9 +306,9 @@
                             <constraint firstItem="OjK-Ud-y3H" firstAttribute="top" secondItem="8aR-O5-hBc" secondAttribute="bottom" id="vEp-j5-f6y"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Practice Members" id="ZoD-ez-KgE"/>
+                    <navigationItem key="navigationItem" title="Clients" id="ZoD-ez-KgE"/>
                     <connections>
-                        <outlet property="practiceMemberListTableView" destination="GCj-qq-vJZ" id="hvR-88-N1D"/>
+                        <outlet property="clientListTableView" destination="GCj-qq-vJZ" id="cg3-LE-6hP"/>
                         <outlet property="timeframeSegmentedControl" destination="RZO-DU-V1p" id="oEo-AJ-8v1"/>
                     </connections>
                 </viewController>
@@ -316,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="-570.39999999999998" y="-538.38080959520244"/>
         </scene>
-        <!--Practice Member Detail Table View Controller-->
+        <!--Client Detail Table View Controller-->
         <scene sceneID="G63-K3-fpF">
             <objects>
-                <tableViewController id="YGt-Zc-3uR" customClass="PracticeMemberDetailTableViewController" customModule="Chiropractic" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="YGt-Zc-3uR" customClass="ClientDetailTableViewController" customModule="AreiosChiropractic" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="H7Q-pi-hJV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -501,7 +501,7 @@
         <!--Web View Controller-->
         <scene sceneID="Sl2-8O-J7g">
             <objects>
-                <viewController storyboardIdentifier="webViewController" id="npt-Oa-6J0" customClass="WebViewController" customModule="Chiropractic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="webViewController" id="npt-Oa-6J0" customClass="WebViewController" customModule="AreiosChiropractic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7El-Ck-EXR"/>
                         <viewControllerLayoutGuide type="bottom" id="gpx-A1-UwR"/>
@@ -558,7 +558,7 @@
         <!--Initial View Controller-->
         <scene sceneID="rVk-L5-CJ1">
             <objects>
-                <viewController id="2Bf-LW-fa0" customClass="InitialViewController" customModule="Chiropractic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2Bf-LW-fa0" customClass="InitialViewController" customModule="AreiosChiropractic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ePa-1G-Cn5"/>
                         <viewControllerLayoutGuide type="bottom" id="xjg-FH-kZU"/>

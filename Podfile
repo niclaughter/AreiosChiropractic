@@ -11,6 +11,7 @@ target 'AreiosChiropractic' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Storage'
 	pod 'Firebase/Database'
+	pod 'RNCryptor', '~> 5.0'
 
   target 'AreiosChiropracticTests' do
     inherit! :search_paths

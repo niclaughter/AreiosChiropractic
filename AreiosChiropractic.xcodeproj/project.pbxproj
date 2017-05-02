@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DC4CBBCF2EEC939BE116723 /* Pods_AreiosChiropracticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1278A84A2DDB8EA8A0F560 /* Pods_AreiosChiropracticUITests.framework */; };
+		66017E921EB935F100E54940 /* EncryptionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66017E911EB935F100E54940 /* EncryptionEngine.swift */; };
+		66017E951EB939A000E54940 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66017E941EB939A000E54940 /* Images.xcassets */; };
 		6611580F1EB2AAFD003732E3 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6611580E1EB2AAFD003732E3 /* iPad.storyboard */; };
 		661158111EB2AB29003732E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661158101EB2AB29003732E3 /* Main.storyboard */; };
 		6611581B1EB2ABD3003732E3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158191EB2ABD3003732E3 /* String+Extension.swift */; };
@@ -25,13 +27,13 @@
 		661158321EB2AC04003732E3 /* SignatureCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158301EB2AC04003732E3 /* SignatureCaptureView.swift */; };
 		661158391EB2AC15003732E3 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158331EB2AC15003732E3 /* InitialViewController.swift */; };
 		6611583A1EB2AC15003732E3 /* LoginSignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158341EB2AC15003732E3 /* LoginSignUpTableViewController.swift */; };
-		6611583B1EB2AC15003732E3 /* PracticeMemberDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158351EB2AC15003732E3 /* PracticeMemberDetailTableViewController.swift */; };
-		6611583C1EB2AC15003732E3 /* PracticeMemberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158361EB2AC15003732E3 /* PracticeMemberListViewController.swift */; };
-		6611583D1EB2AC15003732E3 /* PracticeMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158371EB2AC15003732E3 /* PracticeMemberTableViewCell.swift */; };
+		6611583B1EB2AC15003732E3 /* ClientDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158351EB2AC15003732E3 /* ClientDetailTableViewController.swift */; };
+		6611583C1EB2AC15003732E3 /* ClientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158361EB2AC15003732E3 /* ClientListViewController.swift */; };
+		6611583D1EB2AC15003732E3 /* ClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158371EB2AC15003732E3 /* ClientTableViewCell.swift */; };
 		6611583E1EB2AC15003732E3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158381EB2AC15003732E3 /* WebViewController.swift */; };
 		661158421EB2AC29003732E3 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611583F1EB2AC29003732E3 /* AccountController.swift */; };
 		661158431EB2AC29003732E3 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158401EB2AC29003732E3 /* ImageController.swift */; };
-		661158441EB2AC29003732E3 /* PracticeMemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158411EB2AC29003732E3 /* PracticeMemberController.swift */; };
+		661158441EB2AC29003732E3 /* ClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158411EB2AC29003732E3 /* ClientController.swift */; };
 		661158481EB2AC3E003732E3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158451EB2AC3E003732E3 /* Account.swift */; };
 		661158491EB2AC3E003732E3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158461EB2AC3E003732E3 /* Client.swift */; };
 		6611584A1EB2AC3E003732E3 /* PrinterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158471EB2AC3E003732E3 /* PrinterLabel.swift */; };
@@ -67,6 +69,8 @@
 		397353EBE0783FCFEDFF1078 /* Pods-AreiosChiropractic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropractic.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic.release.xcconfig"; sourceTree = "<group>"; };
 		479C2C9D04A04DB66D795BDD /* Pods-AreiosChiropracticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticTests/Pods-AreiosChiropracticTests.release.xcconfig"; sourceTree = "<group>"; };
 		6047A1BD55B020679348F165 /* Pods-AreiosChiropracticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66017E911EB935F100E54940 /* EncryptionEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionEngine.swift; sourceTree = "<group>"; };
+		66017E941EB939A000E54940 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6611580E1EB2AAFD003732E3 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		661158101EB2AB29003732E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		661158191EB2ABD3003732E3 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -84,13 +88,13 @@
 		661158301EB2AC04003732E3 /* SignatureCaptureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureCaptureView.swift; sourceTree = "<group>"; };
 		661158331EB2AC15003732E3 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		661158341EB2AC15003732E3 /* LoginSignUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignUpTableViewController.swift; sourceTree = "<group>"; };
-		661158351EB2AC15003732E3 /* PracticeMemberDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PracticeMemberDetailTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		661158361EB2AC15003732E3 /* PracticeMemberListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PracticeMemberListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		661158371EB2AC15003732E3 /* PracticeMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeMemberTableViewCell.swift; sourceTree = "<group>"; };
+		661158351EB2AC15003732E3 /* ClientDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ClientDetailTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158361EB2AC15003732E3 /* ClientListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ClientListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158371EB2AC15003732E3 /* ClientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTableViewCell.swift; sourceTree = "<group>"; };
 		661158381EB2AC15003732E3 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		6611583F1EB2AC29003732E3 /* AccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
 		661158401EB2AC29003732E3 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ImageController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		661158411EB2AC29003732E3 /* PracticeMemberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PracticeMemberController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158411EB2AC29003732E3 /* ClientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ClientController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		661158451EB2AC3E003732E3 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		661158461EB2AC3E003732E3 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Client.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		661158471EB2AC3E003732E3 /* PrinterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterLabel.swift; sourceTree = "<group>"; };
@@ -141,6 +145,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66017E931EB9375F00E54940 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				661158471EB2AC3E003732E3 /* PrinterLabel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		661158121EB2AB54003732E3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,9 +168,9 @@
 				661158101EB2AB29003732E3 /* Main.storyboard */,
 				661158331EB2AC15003732E3 /* InitialViewController.swift */,
 				661158341EB2AC15003732E3 /* LoginSignUpTableViewController.swift */,
-				661158351EB2AC15003732E3 /* PracticeMemberDetailTableViewController.swift */,
-				661158361EB2AC15003732E3 /* PracticeMemberListViewController.swift */,
-				661158371EB2AC15003732E3 /* PracticeMemberTableViewCell.swift */,
+				661158361EB2AC15003732E3 /* ClientListViewController.swift */,
+				661158351EB2AC15003732E3 /* ClientDetailTableViewController.swift */,
+				661158371EB2AC15003732E3 /* ClientTableViewCell.swift */,
 				661158381EB2AC15003732E3 /* WebViewController.swift */,
 			);
 			name = iPhone;
@@ -178,8 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				6611583F1EB2AC29003732E3 /* AccountController.swift */,
+				661158411EB2AC29003732E3 /* ClientController.swift */,
 				661158401EB2AC29003732E3 /* ImageController.swift */,
-				661158411EB2AC29003732E3 /* PracticeMemberController.swift */,
 			);
 			name = ModelController;
 			sourceTree = "<group>";
@@ -189,7 +201,6 @@
 			children = (
 				661158451EB2AC3E003732E3 /* Account.swift */,
 				661158461EB2AC3E003732E3 /* Client.swift */,
-				661158471EB2AC3E003732E3 /* PrinterLabel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -206,6 +217,7 @@
 				661158231EB2ABEC003732E3 /* LoaderView.swift */,
 				661158241EB2ABEC003732E3 /* ViewPrinter.swift */,
 				661158251EB2ABEC003732E3 /* ViewTransitionManager.swift */,
+				66017E911EB935F100E54940 /* EncryptionEngine.swift */,
 				661158181EB2AB9C003732E3 /* Extensions */,
 			);
 			name = Helper;
@@ -249,6 +261,7 @@
 				661158161EB2AB85003732E3 /* Model */,
 				661158151EB2AB6C003732E3 /* ModelController */,
 				661158121EB2AB54003732E3 /* ViewController */,
+				66017E931EB9375F00E54940 /* ViewModel */,
 				661158171EB2AB8F003732E3 /* Helper */,
 				668311B11EB15B830005E044 /* Resources */,
 			);
@@ -277,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				666485881EB153F600CA9791 /* Assets.xcassets */,
+				66017E941EB939A000E54940 /* Images.xcassets */,
 				6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */,
 				6664858D1EB153F600CA9791 /* Info.plist */,
 				666485AF1EB159EB00CA9791 /* GoogleService-Info.plist */,
@@ -429,6 +443,7 @@
 				6611580F1EB2AAFD003732E3 /* iPad.storyboard in Resources */,
 				661158111EB2AB29003732E3 /* Main.storyboard in Resources */,
 				6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */,
+				66017E951EB939A000E54940 /* Images.xcassets in Resources */,
 				666485891EB153F600CA9791 /* Assets.xcassets in Resources */,
 				666485B01EB159EB00CA9791 /* GoogleService-Info.plist in Resources */,
 			);
@@ -595,10 +610,10 @@
 			files = (
 				661158421EB2AC29003732E3 /* AccountController.swift in Sources */,
 				661158391EB2AC15003732E3 /* InitialViewController.swift in Sources */,
-				6611583C1EB2AC15003732E3 /* PracticeMemberListViewController.swift in Sources */,
+				6611583C1EB2AC15003732E3 /* ClientListViewController.swift in Sources */,
 				661158491EB2AC3E003732E3 /* Client.swift in Sources */,
 				6611582A1EB2ABEC003732E3 /* FirebaseController.swift in Sources */,
-				661158441EB2AC29003732E3 /* PracticeMemberController.swift in Sources */,
+				661158441EB2AC29003732E3 /* ClientController.swift in Sources */,
 				661158481EB2AC3E003732E3 /* Account.swift in Sources */,
 				6611583E1EB2AC15003732E3 /* WebViewController.swift in Sources */,
 				6611582D1EB2ABEC003732E3 /* ViewPrinter.swift in Sources */,
@@ -607,14 +622,15 @@
 				6611583A1EB2AC15003732E3 /* LoginSignUpTableViewController.swift in Sources */,
 				6611581B1EB2ABD3003732E3 /* String+Extension.swift in Sources */,
 				666485821EB153F600CA9791 /* AppDelegate.swift in Sources */,
-				6611583D1EB2AC15003732E3 /* PracticeMemberTableViewCell.swift in Sources */,
+				6611583D1EB2AC15003732E3 /* ClientTableViewCell.swift in Sources */,
 				661158291EB2ABEC003732E3 /* Enums.swift in Sources */,
 				6611582E1EB2ABEC003732E3 /* ViewTransitionManager.swift in Sources */,
-				6611583B1EB2AC15003732E3 /* PracticeMemberDetailTableViewController.swift in Sources */,
+				6611583B1EB2AC15003732E3 /* ClientDetailTableViewController.swift in Sources */,
 				661158281EB2ABEC003732E3 /* DocumentManager.swift in Sources */,
 				661158311EB2AC04003732E3 /* OfficeSignInTableViewController.swift in Sources */,
 				661158431EB2AC29003732E3 /* ImageController.swift in Sources */,
 				6611584A1EB2AC3E003732E3 /* PrinterLabel.swift in Sources */,
+				66017E921EB935F100E54940 /* EncryptionEngine.swift in Sources */,
 				661158321EB2AC04003732E3 /* SignatureCaptureView.swift in Sources */,
 				6611582C1EB2ABEC003732E3 /* LoaderView.swift in Sources */,
 				661158261EB2ABEC003732E3 /* Constants.swift in Sources */,
