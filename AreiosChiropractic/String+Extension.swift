@@ -9,14 +9,16 @@
 import Foundation
 
 extension String {
-    func capitalizingFirstLetter() -> String {
+    
+    // MARK: - Capitalizes only the first letter in a String
+    mutating func capitalizeFirstLetter() {
+        self = self.capitalizingFirstLetter()
+    }
+        
+    fileprivate func capitalizingFirstLetter() -> String {
         let first = String(characters.prefix(1)).capitalized
         let other = String(characters.dropFirst())
         return first + other
-    }
-    
-    mutating func capitalizeFirstLetter() {
-        self = self.capitalizingFirstLetter()
     }
     
     /*
@@ -52,7 +54,7 @@ extension String {
     /*
      URL Strings
      */
-    static var homeURLString: String { get { return "http://www.google.com" } }
+    static var homeURLString: String { get { return "http://niclaughter.com/portfolio" } }
     
     /*
      Reuse Identifiers
