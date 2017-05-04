@@ -11,7 +11,7 @@ import Firebase
 
 class ClientListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, ClientsControllerDelegate {
     
-    // MARK: - Properties
+    // MARK: - Outlets
     
     @IBOutlet weak var timeframeSegmentedControl: UISegmentedControl!
     @IBOutlet weak var clientListTableView: UITableView!

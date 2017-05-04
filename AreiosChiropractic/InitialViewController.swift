@@ -17,40 +17,10 @@ class InitialViewController: UIViewController {
         
         navigationController?.navigationBar.isHidden = true
         authenticateUser()
+        setUpLoader()
     }
     
-    func setUpAppUsage() {
-        
-        if FIRAuth.auth()?.currentUser != nil {
-            checkUserAgainstDatabase { (success, _) in
-                if success,
-                    let currentUser = FIRAuth.auth()?.currentUser {
-                    self.setUpLoader(withTitle: "Fetching Profile")
-                    AccountController.shared.fetchAccount(withIdentifier: currentUser.uid, completion: { (accountType) in
-                        ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: accountType)
-                        LoaderView.hide()
-                    })
-                } else {
-                    ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: .initial)
-                }
-            }
-        } else {
-            ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: .initial)
-        }
-    }
-    
-    func checkUserAgainstDatabase(_ completion: @escaping (_ success: Bool, _ error: NSError?) -> Void) {
-        guard let currentUser = FIRAuth.auth()?.currentUser else { return }
-        currentUser.getTokenForcingRefresh(true) { (idToken, error) in
-            if let error = error {
-                completion(false, error as NSError?)
-                print(error.localizedDescription)
-            } else {
-                completion(true, nil)
-            }
-        }
-    }
-    
+    // If biometrics are available, utilizes them to authenticate user
     func authenticateUser() {
         let context = LAContext()
         var error: NSError?
@@ -72,9 +42,43 @@ class InitialViewController: UIViewController {
         }
     }
     
+    // Forwards app to appropriate ViewController based on user account type
+    func setUpAppUsage() {
+        if FIRAuth.auth()?.currentUser != nil {
+            checkUserAgainstDatabase { (success, _) in
+                if success,
+                    let currentUser = FIRAuth.auth()?.currentUser {
+                    LoaderView.show(title: "Fetching Profile", animated: true)
+                    AccountController.shared.fetchAccount(withIdentifier: currentUser.uid, completion: { (accountType) in
+                        ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: accountType)
+                        LoaderView.hide()
+                    })
+                } else {
+                    ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: .initial)
+                }
+            }
+        } else {
+            ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: .initial)
+        }
+    }
+    
+    // Retrieves account type from Firebase Database
+    func checkUserAgainstDatabase(_ completion: @escaping (_ success: Bool, _ error: NSError?) -> Void) {
+        guard let currentUser = FIRAuth.auth()?.currentUser else { return }
+        // If user account has been deleted, will return nil for user
+        currentUser.getTokenForcingRefresh(true) { (_, error) in
+            if let error = error {
+                completion(false, error as NSError?)
+                print(error.localizedDescription)
+            } else {
+                completion(true, nil)
+            }
+        }
+    }
+    
     // MARK: - Loader
     
-    func setUpLoader(withTitle title: String) {
+    func setUpLoader() {
         var config = LoaderView.Config()
         config.size = 150
         config.spinnerColor = .softGray
@@ -82,6 +86,5 @@ class InitialViewController: UIViewController {
         config.foregroundColor = .softBlack
         config.foregroundAlpha = 0.5
         LoaderView.setConfig(config: config)
-        LoaderView.show(title: title, animated: true)
     }
 }

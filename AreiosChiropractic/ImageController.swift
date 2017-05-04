@@ -17,6 +17,7 @@ class ImageController {
     let encryptionEngine = EncryptionEngine()
     var imagesDict = [String: UIImage]()
     
+    // Gathers Client signature, converts to Data, encrypts, then saves to Firebase Storage
     func saveSignatureImageToDatabase(_ image: UIImage, completion: @escaping (String) -> Void = { _ in }) {
         let identifier = FirebaseController.databaseRef.child(.clientsEndpoint).childByAutoId().key
         defer { completion(identifier) }
@@ -30,6 +31,7 @@ class ImageController {
         }
     }
     
+    // Fetches from Firebase Storage for the identifier, decrypts Data, then turns into Image and adds to the dict in ImageController
     func fetchImage(forClient client: Client, completion: @escaping (UIImage?) -> Void = { _ in }) {
         defer { completion(nil) }
         guard let identifier = client.identifier else { return }

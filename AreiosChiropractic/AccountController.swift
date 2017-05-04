@@ -15,11 +15,13 @@ class AccountController {
     
     var account: Account?
     
+    // Saves account info in Firebase Database to allow schema customization
     func createAccount(withEmail email: String, andIdentifier identifier: String) {
         var account = Account(email: email, identifier: identifier)
         account.save()
     }
     
+    // Checks account type against Firebase Database copy to establish starting point for usage
     func fetchAccount(withIdentifier identifier: String? = nil, completion: @escaping (AccountType) -> Void) {
         guard let identifier = identifier else {
             completion(.initial)

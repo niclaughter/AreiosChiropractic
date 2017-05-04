@@ -54,6 +54,7 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
     // MARK: - TableViewDelegate
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        // If not requesting sign up, repeat password field goes away
         if !signUpState && section == 2 {
             return 0
         }
@@ -62,19 +63,8 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
     
     // MARK: - UI Functions
     
+    // Changes UI based on if requesting sign up or log in
     @IBAction func LogInSignUpStateButtonTapped(_ sender: Any) {
-        self.updateUIAndState()
-    }
-    
-    @IBAction func registerButtonTapped(_ sender: Any) {
-        if signUpState {
-            registerUser()
-        } else {
-            signInUser()
-        }
-    }
-    
-    func updateUIAndState() {
         signUpState = !signUpState
         repeatPasswordCell.isHidden = !signUpState
         if signUpState {
@@ -85,6 +75,14 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
             LogInSignUpButton.setTitle("Sign In", for: .normal)
         }
         tableView.reloadData()
+    }
+    
+    @IBAction func registerButtonTapped(_ sender: Any) {
+        if signUpState {
+            registerUser()
+        } else {
+            signInUser()
+        }
     }
     
     // MARK: - Firebase Functions
@@ -117,12 +115,14 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
         })
     }
     
+    // Displays a UIAlertController handling an error
     func handle(error: Error?) {
         if let error = error {
             displayAlertController(withErrorMessage: error.localizedDescription)
         }
     }
     
+    // Based on state, takes user info and registers or authenticates, then handles transition
     func handle(user: FIRUser?) {
         guard let user = user,
             let email = user.email else { return }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OfficeSignInTableViewController: UITableViewController, SignatureCaptureDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+class OfficeSignInTableViewController: UITableViewController, SignatureCaptureDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate, ReachabilityDelegate {
     
     // MARK: - Outlets
     
@@ -27,6 +27,7 @@ class OfficeSignInTableViewController: UITableViewController, SignatureCaptureDe
         super.viewDidLoad()
         
         setUpViews()
+        Network.reachability?.delegate = self
     }
     
     // MARK: - User Actions
@@ -201,6 +202,16 @@ class OfficeSignInTableViewController: UITableViewController, SignatureCaptureDe
         }
     }
     
+    func flagsChanged() {
+        guard let status = Network.reachability?.status else { return }
+        switch status {
+        case .unreachable:
+            presentInternetConnectionAlertController(withStatus: false)
+        default:
+            presentInternetConnectionAlertController(withStatus: true)
+        }
+    }
+    
     func presentSignInSuccessfulAlertController() {
         let alertController = UIAlertController(title: "Sign in successful", message: "Thank you for signing in. You may have a seat if you'd like.", preferredStyle: .alert)
         let dismissAction = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
@@ -222,6 +233,20 @@ class OfficeSignInTableViewController: UITableViewController, SignatureCaptureDe
         }
         let dismissAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         alertController.addAction(clearFormAction)
+        alertController.addAction(dismissAction)
+        present(alertController, animated: true, completion: nil)
+    }
+    
+    func presentInternetConnectionAlertController(withStatus status: Bool) {
+        let alertController = UIAlertController(title: "And We're Back!", message: "The internet is working now.", preferredStyle: .alert)
+        switch status {
+        case false:
+            alertController.title = "Oh Snap!"
+            alertController.message = "The internet isn't working. Hop into your device settings and reconnect to WiFi."
+        default:
+            break
+        }
+        let dismissAction = UIAlertAction(title: "Okay", style: .default, handler: nil)
         alertController.addAction(dismissAction)
         present(alertController, animated: true, completion: nil)
     }

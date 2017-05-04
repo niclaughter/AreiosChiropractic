@@ -27,6 +27,11 @@ extension String {
     static var encryptionKey: String { get { return "qyhvu7AMbNaWrCZ94Gpg94vVzxVMEt8CQHuPx6VVtWBC8Rbs9SEBf8vJuucVY8jKrnN25KFDzEcSAqSm8WAuNsAw8MNLXphr6CgHzBEGbdZtt9QsR4wyaMwnyeVCSnUf" } }
     
     /*
+     Persistence Keys
+     */
+    static var appResignTimeIntervalKey: String { get { return "appResignTimeInterval" } }
+    
+    /*
      Model Keys
      */
     // MARK: - Client Keys

@@ -63,6 +63,7 @@ struct Client: FirebaseType, Equatable {
         let signedInTimeInterval = (signedInTimeIntervalString as NSString).doubleValue
         self.signedInDate = Date(timeIntervalSince1970: signedInTimeInterval)
         
+        // Depending on Strings returned, set the respective values accordingly
         switch adultOrChildString {
         case AdultOrChild.child.rawValue:
             self.adultOrChild = .child
