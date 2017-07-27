@@ -8,6 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1DC4CBBCF2EEC939BE116723 /* Pods_AreiosChiropracticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1278A84A2DDB8EA8A0F560 /* Pods_AreiosChiropracticUITests.framework */; };
+		66017E921EB935F100E54940 /* EncryptionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66017E911EB935F100E54940 /* EncryptionEngine.swift */; };
+		66017E951EB939A000E54940 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66017E941EB939A000E54940 /* Images.xcassets */; };
+		66083E1D1EBB91C80098EC3A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66083E1C1EBB91C80098EC3A /* Reachability.swift */; };
+		6611580F1EB2AAFD003732E3 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6611580E1EB2AAFD003732E3 /* iPad.storyboard */; };
+		661158111EB2AB29003732E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661158101EB2AB29003732E3 /* Main.storyboard */; };
+		6611581B1EB2ABD3003732E3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158191EB2ABD3003732E3 /* String+Extension.swift */; };
+		6611581C1EB2ABD3003732E3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611581A1EB2ABD3003732E3 /* UIColor+Extension.swift */; };
+		661158261EB2ABEC003732E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611581D1EB2ABEC003732E3 /* Constants.swift */; };
+		661158271EB2ABEC003732E3 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611581E1EB2ABEC003732E3 /* DateHelper.swift */; };
+		661158281EB2ABEC003732E3 /* DocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611581F1EB2ABEC003732E3 /* DocumentManager.swift */; };
+		661158291EB2ABEC003732E3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158201EB2ABEC003732E3 /* Enums.swift */; };
+		6611582A1EB2ABEC003732E3 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158211EB2ABEC003732E3 /* FirebaseController.swift */; };
+		6611582B1EB2ABEC003732E3 /* ImagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158221EB2ABEC003732E3 /* ImagesHelper.swift */; };
+		6611582C1EB2ABEC003732E3 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158231EB2ABEC003732E3 /* LoaderView.swift */; };
+		6611582D1EB2ABEC003732E3 /* ViewPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158241EB2ABEC003732E3 /* ViewPrinter.swift */; };
+		6611582E1EB2ABEC003732E3 /* ViewTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158251EB2ABEC003732E3 /* ViewTransitionManager.swift */; };
+		661158311EB2AC04003732E3 /* OfficeSignInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611582F1EB2AC04003732E3 /* OfficeSignInTableViewController.swift */; };
+		661158321EB2AC04003732E3 /* SignatureCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158301EB2AC04003732E3 /* SignatureCaptureView.swift */; };
+		661158391EB2AC15003732E3 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158331EB2AC15003732E3 /* InitialViewController.swift */; };
+		6611583A1EB2AC15003732E3 /* LoginSignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158341EB2AC15003732E3 /* LoginSignUpTableViewController.swift */; };
+		6611583B1EB2AC15003732E3 /* ClientDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158351EB2AC15003732E3 /* ClientDetailTableViewController.swift */; };
+		6611583C1EB2AC15003732E3 /* ClientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158361EB2AC15003732E3 /* ClientListViewController.swift */; };
+		6611583D1EB2AC15003732E3 /* ClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158371EB2AC15003732E3 /* ClientTableViewCell.swift */; };
+		6611583E1EB2AC15003732E3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158381EB2AC15003732E3 /* WebViewController.swift */; };
+		661158421EB2AC29003732E3 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611583F1EB2AC29003732E3 /* AccountController.swift */; };
+		661158431EB2AC29003732E3 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158401EB2AC29003732E3 /* ImageController.swift */; };
+		661158441EB2AC29003732E3 /* ClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158411EB2AC29003732E3 /* ClientController.swift */; };
+		661158481EB2AC3E003732E3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158451EB2AC3E003732E3 /* Account.swift */; };
+		661158491EB2AC3E003732E3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158461EB2AC3E003732E3 /* Client.swift */; };
+		6611584A1EB2AC3E003732E3 /* PrinterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661158471EB2AC3E003732E3 /* PrinterLabel.swift */; };
 		666485821EB153F600CA9791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666485811EB153F600CA9791 /* AppDelegate.swift */; };
 		666485891EB153F600CA9791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666485881EB153F600CA9791 /* Assets.xcassets */; };
 		6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */; };
@@ -40,6 +70,36 @@
 		397353EBE0783FCFEDFF1078 /* Pods-AreiosChiropractic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropractic.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic.release.xcconfig"; sourceTree = "<group>"; };
 		479C2C9D04A04DB66D795BDD /* Pods-AreiosChiropracticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticTests/Pods-AreiosChiropracticTests.release.xcconfig"; sourceTree = "<group>"; };
 		6047A1BD55B020679348F165 /* Pods-AreiosChiropracticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66017E911EB935F100E54940 /* EncryptionEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionEngine.swift; sourceTree = "<group>"; };
+		66017E941EB939A000E54940 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66083E1C1EBB91C80098EC3A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		6611580E1EB2AAFD003732E3 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		661158101EB2AB29003732E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		661158191EB2ABD3003732E3 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6611581A1EB2ABD3003732E3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6611581D1EB2ABEC003732E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6611581E1EB2ABEC003732E3 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		6611581F1EB2ABEC003732E3 /* DocumentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
+		661158201EB2ABEC003732E3 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		661158211EB2ABEC003732E3 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		661158221EB2ABEC003732E3 /* ImagesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesHelper.swift; sourceTree = "<group>"; };
+		661158231EB2ABEC003732E3 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		661158241EB2ABEC003732E3 /* ViewPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPrinter.swift; sourceTree = "<group>"; };
+		661158251EB2ABEC003732E3 /* ViewTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTransitionManager.swift; sourceTree = "<group>"; };
+		6611582F1EB2AC04003732E3 /* OfficeSignInTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = OfficeSignInTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158301EB2AC04003732E3 /* SignatureCaptureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureCaptureView.swift; sourceTree = "<group>"; };
+		661158331EB2AC15003732E3 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		661158341EB2AC15003732E3 /* LoginSignUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignUpTableViewController.swift; sourceTree = "<group>"; };
+		661158351EB2AC15003732E3 /* ClientDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ClientDetailTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158361EB2AC15003732E3 /* ClientListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ClientListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158371EB2AC15003732E3 /* ClientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTableViewCell.swift; sourceTree = "<group>"; };
+		661158381EB2AC15003732E3 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		6611583F1EB2AC29003732E3 /* AccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		661158401EB2AC29003732E3 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ImageController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158411EB2AC29003732E3 /* ClientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ClientController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158451EB2AC3E003732E3 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		661158461EB2AC3E003732E3 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Client.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		661158471EB2AC3E003732E3 /* PrinterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterLabel.swift; sourceTree = "<group>"; };
 		6664857E1EB153F600CA9791 /* AreiosChiropractic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreiosChiropractic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666485811EB153F600CA9791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666485881EB153F600CA9791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +113,7 @@
 		666485A31EB153F600CA9791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		666485AF1EB159EB00CA9791 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		669F0ECC477AF2CE4EFD2A26 /* Pods_AreiosChiropracticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreiosChiropracticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E7E1A41EBA1CB4008D4CA1 /* AreiosChiropractic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AreiosChiropractic.entitlements; sourceTree = "<group>"; };
 		954ADCD4E14A9F4860714F34 /* Pods-AreiosChiropracticUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropracticUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropracticUITests/Pods-AreiosChiropracticUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F1278A84A2DDB8EA8A0F560 /* Pods_AreiosChiropracticUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreiosChiropracticUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D08F3E6DF737BD1C47CDC7 /* Pods-AreiosChiropractic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreiosChiropractic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreiosChiropractic/Pods-AreiosChiropractic.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +148,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66017E931EB9375F00E54940 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				661158471EB2AC3E003732E3 /* PrinterLabel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		661158121EB2AB54003732E3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				661158131EB2AB60003732E3 /* iPhone */,
+				661158141EB2AB67003732E3 /* iPad */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		661158131EB2AB60003732E3 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				661158101EB2AB29003732E3 /* Main.storyboard */,
+				661158331EB2AC15003732E3 /* InitialViewController.swift */,
+				661158341EB2AC15003732E3 /* LoginSignUpTableViewController.swift */,
+				661158361EB2AC15003732E3 /* ClientListViewController.swift */,
+				661158351EB2AC15003732E3 /* ClientDetailTableViewController.swift */,
+				661158371EB2AC15003732E3 /* ClientTableViewCell.swift */,
+				661158381EB2AC15003732E3 /* WebViewController.swift */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		661158141EB2AB67003732E3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				6611580E1EB2AAFD003732E3 /* iPad.storyboard */,
+				6611582F1EB2AC04003732E3 /* OfficeSignInTableViewController.swift */,
+				661158301EB2AC04003732E3 /* SignatureCaptureView.swift */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		661158151EB2AB6C003732E3 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				6611583F1EB2AC29003732E3 /* AccountController.swift */,
+				661158411EB2AC29003732E3 /* ClientController.swift */,
+				661158401EB2AC29003732E3 /* ImageController.swift */,
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		661158161EB2AB85003732E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				661158451EB2AC3E003732E3 /* Account.swift */,
+				661158461EB2AC3E003732E3 /* Client.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		661158171EB2AB8F003732E3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6611581D1EB2ABEC003732E3 /* Constants.swift */,
+				6611581E1EB2ABEC003732E3 /* DateHelper.swift */,
+				6611581F1EB2ABEC003732E3 /* DocumentManager.swift */,
+				661158201EB2ABEC003732E3 /* Enums.swift */,
+				661158211EB2ABEC003732E3 /* FirebaseController.swift */,
+				661158221EB2ABEC003732E3 /* ImagesHelper.swift */,
+				661158231EB2ABEC003732E3 /* LoaderView.swift */,
+				661158241EB2ABEC003732E3 /* ViewPrinter.swift */,
+				661158251EB2ABEC003732E3 /* ViewTransitionManager.swift */,
+				66017E911EB935F100E54940 /* EncryptionEngine.swift */,
+				66083E1C1EBB91C80098EC3A /* Reachability.swift */,
+				661158181EB2AB9C003732E3 /* Extensions */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		661158181EB2AB9C003732E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				661158191EB2ABD3003732E3 /* String+Extension.swift */,
+				6611581A1EB2ABD3003732E3 /* UIColor+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		666485751EB153F600CA9791 = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +261,13 @@
 		666485801EB153F600CA9791 /* AreiosChiropractic */ = {
 			isa = PBXGroup;
 			children = (
+				66E7E1A41EBA1CB4008D4CA1 /* AreiosChiropractic.entitlements */,
 				666485811EB153F600CA9791 /* AppDelegate.swift */,
+				661158161EB2AB85003732E3 /* Model */,
+				661158151EB2AB6C003732E3 /* ModelController */,
+				661158121EB2AB54003732E3 /* ViewController */,
+				66017E931EB9375F00E54940 /* ViewModel */,
+				661158171EB2AB8F003732E3 /* Helper */,
 				668311B11EB15B830005E044 /* Resources */,
 			);
 			path = AreiosChiropractic;
@@ -140,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				666485881EB153F600CA9791 /* Assets.xcassets */,
+				66017E941EB939A000E54940 /* Images.xcassets */,
 				6664858A1EB153F600CA9791 /* LaunchScreen.storyboard */,
 				6664858D1EB153F600CA9791 /* Info.plist */,
 				666485AF1EB159EB00CA9791 /* GoogleService-Info.plist */,
@@ -249,6 +405,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = B24U63J96U;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					666485911EB153F600CA9791 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -289,7 +450,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6611580F1EB2AAFD003732E3 /* iPad.storyboard in Resources */,
+				661158111EB2AB29003732E3 /* Main.storyboard in Resources */,
 				6664858C1EB153F600CA9791 /* LaunchScreen.storyboard in Resources */,
+				66017E951EB939A000E54940 /* Images.xcassets in Resources */,
 				666485891EB153F600CA9791 /* Assets.xcassets in Resources */,
 				666485B01EB159EB00CA9791 /* GoogleService-Info.plist in Resources */,
 			);
@@ -454,7 +618,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661158421EB2AC29003732E3 /* AccountController.swift in Sources */,
+				661158391EB2AC15003732E3 /* InitialViewController.swift in Sources */,
+				6611583C1EB2AC15003732E3 /* ClientListViewController.swift in Sources */,
+				661158491EB2AC3E003732E3 /* Client.swift in Sources */,
+				6611582A1EB2ABEC003732E3 /* FirebaseController.swift in Sources */,
+				661158441EB2AC29003732E3 /* ClientController.swift in Sources */,
+				661158481EB2AC3E003732E3 /* Account.swift in Sources */,
+				6611583E1EB2AC15003732E3 /* WebViewController.swift in Sources */,
+				6611582D1EB2ABEC003732E3 /* ViewPrinter.swift in Sources */,
+				661158271EB2ABEC003732E3 /* DateHelper.swift in Sources */,
+				6611581C1EB2ABD3003732E3 /* UIColor+Extension.swift in Sources */,
+				6611583A1EB2AC15003732E3 /* LoginSignUpTableViewController.swift in Sources */,
+				6611581B1EB2ABD3003732E3 /* String+Extension.swift in Sources */,
 				666485821EB153F600CA9791 /* AppDelegate.swift in Sources */,
+				66083E1D1EBB91C80098EC3A /* Reachability.swift in Sources */,
+				6611583D1EB2AC15003732E3 /* ClientTableViewCell.swift in Sources */,
+				661158291EB2ABEC003732E3 /* Enums.swift in Sources */,
+				6611582E1EB2ABEC003732E3 /* ViewTransitionManager.swift in Sources */,
+				6611583B1EB2AC15003732E3 /* ClientDetailTableViewController.swift in Sources */,
+				661158281EB2ABEC003732E3 /* DocumentManager.swift in Sources */,
+				661158311EB2AC04003732E3 /* OfficeSignInTableViewController.swift in Sources */,
+				661158431EB2AC29003732E3 /* ImageController.swift in Sources */,
+				6611584A1EB2AC3E003732E3 /* PrinterLabel.swift in Sources */,
+				66017E921EB935F100E54940 /* EncryptionEngine.swift in Sources */,
+				661158321EB2AC04003732E3 /* SignatureCaptureView.swift in Sources */,
+				6611582C1EB2ABEC003732E3 /* LoaderView.swift in Sources */,
+				661158261EB2ABEC003732E3 /* Constants.swift in Sources */,
+				6611582B1EB2ABEC003732E3 /* ImagesHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +792,7 @@
 			baseConfigurationReference = B1D08F3E6DF737BD1C47CDC7 /* Pods-AreiosChiropractic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AreiosChiropractic/AreiosChiropractic.entitlements;
 				DEVELOPMENT_TEAM = B24U63J96U;
 				INFOPLIST_FILE = AreiosChiropractic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -615,6 +807,7 @@
 			baseConfigurationReference = 397353EBE0783FCFEDFF1078 /* Pods-AreiosChiropractic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AreiosChiropractic/AreiosChiropractic.entitlements;
 				DEVELOPMENT_TEAM = B24U63J96U;
 				INFOPLIST_FILE = AreiosChiropractic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
