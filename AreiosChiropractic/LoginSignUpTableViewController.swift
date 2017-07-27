@@ -94,7 +94,7 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
                 return
         }
         LoaderView.show(title: "Registering", animated: true)
-        FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in
+        Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
             self.handle(error: error)
             self.handle(user: user)
             LoaderView.hide()
@@ -108,7 +108,7 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
                 return
         }
         LoaderView.show(title: "Logging In", animated: true)
-        FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
+        Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
             self.handle(error: error)
             self.handle(user: user)
             LoaderView.hide()
@@ -123,7 +123,7 @@ class LoginSignUpTableViewController: UITableViewController, UITextFieldDelegate
     }
     
     // Based on state, takes user info and registers or authenticates, then handles transition
-    func handle(user: FIRUser?) {
+    func handle(user: User?) {
         guard let user = user,
             let email = user.email else { return }
         var accountType: AccountType = .user

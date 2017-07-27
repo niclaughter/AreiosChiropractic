@@ -44,10 +44,10 @@ class InitialViewController: UIViewController {
     
     // Forwards app to appropriate ViewController based on user account type
     func setUpAppUsage() {
-        if FIRAuth.auth()?.currentUser != nil {
+        if Auth.auth().currentUser != nil {
             checkUserAgainstDatabase { (success, _) in
                 if success,
-                    let currentUser = FIRAuth.auth()?.currentUser {
+                    let currentUser = Auth.auth().currentUser {
                     LoaderView.show(title: "Fetching Profile", animated: true)
                     AccountController.shared.fetchAccount(withIdentifier: currentUser.uid, completion: { (accountType) in
                         ViewTransitionManager.transitionToCorrectViewController(fromViewController: self, forAccountType: accountType)
@@ -64,7 +64,7 @@ class InitialViewController: UIViewController {
     
     // Retrieves account type from Firebase Database
     func checkUserAgainstDatabase(_ completion: @escaping (_ success: Bool, _ error: NSError?) -> Void) {
-        guard let currentUser = FIRAuth.auth()?.currentUser else { return }
+        guard let currentUser = Auth.auth().currentUser else { return }
         // If user account has been deleted, will return nil for user
         currentUser.getTokenForcingRefresh(true) { (_, error) in
             if let error = error {

@@ -24,7 +24,7 @@ class ImageController {
         guard let imageData = UIImageJPEGRepresentation(image, 1.0) else { return }
         let dataToSave = encryptionEngine.encryptToData(data: imageData)
         let signatureRef = FirebaseController.storageRef.child(.imagesEndpoint).child(.signaturesEndpoint).child(identifier)
-        signatureRef.put(dataToSave, metadata: nil) { (_, error) in
+        signatureRef.putData(dataToSave, metadata: nil) { (_, error) in
             if let error = error {
                 NSLog("Error saving signature image:\n\(error)")
             }
@@ -36,7 +36,7 @@ class ImageController {
         defer { completion(nil) }
         guard let identifier = client.identifier else { return }
         let signatureRef = FirebaseController.storageRef.child(.imagesEndpoint).child(.signaturesEndpoint).child(identifier)
-        signatureRef.data(withMaxSize: (1 * 480 * 480)) { (data, error) in
+        signatureRef.getData(maxSize: (1 * 480 * 480)) { (data, error) in
             if let error = error {
                 NSLog("Error getting signature from server:\n\(error)")
             }

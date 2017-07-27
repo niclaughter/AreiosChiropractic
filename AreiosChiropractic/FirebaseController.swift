@@ -12,8 +12,8 @@ import Firebase
 class FirebaseController {
     
     static let shared = FirebaseController()
-    static let databaseRef = FIRDatabase.database().reference()
-    static let storageRef = FIRStorage.storage().reference()
+    static let databaseRef = Database.database().reference()
+    static let storageRef = Storage.storage().reference()
 }
 
 protocol FirebaseType {
